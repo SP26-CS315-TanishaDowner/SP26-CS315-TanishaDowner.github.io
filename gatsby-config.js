@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://monumental-chimera-b1ace3.netlify.app/`,
+    siteUrl: `https://github.com/SP26-CS315-TanishaDowner/SP26-CS315-TanishaDowner.github.io`,
     // Your Name
     name: 'Tanisha Downer',
     // Main Site Title
@@ -11,9 +11,9 @@ module.exports = {
     // Optional: Twitter account handle
     author: `@tdowner93`,
     // Optional: Github account URL
-    github: `https://github.com/RyanFitzgerald`,
+    github: `https://github.com/downerT/tanishadowner`,
     // Optional: LinkedIn account URL
-    linkedin: `https://github.com/RyanFitzgerald/devfolio`,
+    linkedin: `https://www.linkedin.com/in/tanisha-downer-838730221/`,
     // Content of the About Me section
     about: `I’m a computer science student with a strong interest in building practical, user-friendly technology. I enjoy turning ideas into working solutions through programming, data analysis, and thoughtful design.I’ve worked on a range of projects—from web applications to hardware-based systems—that have helped me develop a solid foundation in software development and problem-solving. I’m especially interested in projects that combine logic, data, and real-world impact.As a college athlete, I bring discipline, teamwork, and persistence into everything I do. I’m always eager to learn new technologies, take on challenges, and grow as a developer..`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -40,18 +40,18 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        name: 'Eli Lilly & Company',
+        description: 'Tech@Lilly Intern, June 2022 - August 2022',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
+        name: 'GCM Grovner',
+        description: 'IT & Infrastcture Intern, June 2025 - August 2025',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
+        name: 'Parrish Consulting Services',
+        description: 'IT Ticket Workflow Manager, December 2025 - Present',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
@@ -60,16 +60,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Python, HTML, C++, Node.js,',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'Django, PostreSQL, MySQL',
       },
       {
-        name: 'Other',
+        name: 'Technical Skills',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, API design, Power BI, Azure, On PREM, Servers, SolorWinds, PowerShell, Jira, ConnectWise PSA',
       },
     ],
   },
