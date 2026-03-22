@@ -1,0 +1,26 @@
+services:
+
+  # Production-style static serve
+  portfolio:
+    build:
+      context: .
+      target: serve
+    ports:
+      - "9000:80"
+    restart: unless-stopped
+
+  # Development: Gatsby dev server with hot reload
+  dev:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "npm ci && npm run develop -- --host 0.0.0.0"
+    environment:
+      - NODE_ENV=development
+    profiles:
+      - dev
